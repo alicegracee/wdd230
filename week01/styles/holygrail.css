@@ -12,28 +12,30 @@ main,
 }
 
 header {
-    background: lightpink;
+    background: rgb(255, 182, 193);
     grid-column: 1 / 3;
 }
 
 .main-navigation {
-    background: lightblue;
+    background: rgb(173, 216, 230);
     grid-column: 1 / 3;
 }
 
 main {
-    background: coral;
+    background: rgb(255, 127, 80);
     grid-column: 1 / 2;
 }
 
 .right-sidebar {
-    background: yellow;
+    background: rgb(255, 255, 0);
     grid-column: 2 / 3;
 }
 
 footer {
-    background: wheat;
+    background: rgb(245, 222, 179);
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 3;
 }
+
+/* git push */

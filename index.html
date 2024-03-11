@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Volegova - WDD 230 - Web Frontend Development</title>
+
+    <!-- meta description & author -->
+    <meta name="description" content="Victoria Volegova - WDD 230 - Web Frontend Development course assignment portal">
+    <meta name="author" content="Victoria Volegova">
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Google fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Victoria Volegova</h1>
+        <img src="images/profile.jpg" alt="Victoria Volegova profile picture" width="75" height="100">
+    </header>
+
+    <nav>
+        <div><button id="menu"></button></div>
+        <ul class="navigation">
+            <li class="active"><a href="#index.html">Home</a></li>
+            <li><a href="#" target="_blank">Chamber</a></li>
+            <li><a href="#" target="_blank">Site Plan</a></li>
+            <li><a href="#" target="_blank">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li><a href="week01/holygrail.html" target="_blank">Holygrail</a></li>
+                <li><a href="https://codepen.io/alicegracee/pen/JjVXqKM?editors=1010" target="_blank">Applied
+                        JavaScript</a></li>
+                <li><a href="week01/media-query.html" target="_blank">CSS Media Queries</a></li>
+            </ul>
+        </section>
+        <section class="card weather">
+            <h3>Information</h3>
+            <div>
+                <h4>Weather</h4>
+                <p>placeholder</p>
+                <p>placeholder</p>
+                <p>placeholder</p>
+            </div>
+            <div>
+                <p>Number of visits</p>
+                <p>placeholder</p>
+                <p>placeholder</p>
+                <p>placeholder</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> | Victoria Volegova | Lithuania</p>
+        <p> Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+</body>
+
+</html>
