@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #6D6875;
+    --secondary-color: #E5989B;
+    --accent1-color: #FFB4A2;
+    --accent2-color: #B5838D;
+
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'Source Sans', sans-serif;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
