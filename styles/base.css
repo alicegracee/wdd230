@@ -82,6 +82,10 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* responsive navigation */
 nav div {
     display: flex;
@@ -166,4 +170,20 @@ h2 {
 main section ul,
 div {
     padding: 1rem;
+}
+
+/* dark/light mode button */
+#mode {
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+main.dark section {
+    background-color: #000;
+}
+
+main.dark a {
+    color: #fff;
 }
