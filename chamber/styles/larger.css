@@ -1,0 +1,81 @@
+@media only screen and (min-width: 38rem) {
+
+    /* header grid */
+    header {
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        grid-column: 2 / span 2;
+        grid-row: 1 / 3;
+        justify-self: center;
+        align-self: center;
+    }
+
+    img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+
+    /* hero */
+    .hero article {
+        max-width: 81%;
+        padding: 2rem;
+        line-height: 4rem;
+        font-size: 1.2rem;
+    }
+
+
+    /* main grid */
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .card {
+        box-shadow: 0 0 30px gray;
+    }
+
+    .events {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    .spotlights {
+        grid-column: 2 / 4;
+        grid-row: 1 / span 2;
+    }
+
+    .weather {
+        grid-column: 1 / 2;
+        grid-row: 2;
+    }
+
+    /* Flex Navigation Menu */
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    /* responsive navigation */
+    /* hide hamburger button */
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+}
