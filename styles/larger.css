@@ -56,4 +56,28 @@
         display: block;
         flex: 1 1 100%;
     }
+
+    /* hero */
+    .hero {
+        grid-column: 1 / span 2;
+    }
+
+    .herolabel {
+        top: 20px;
+        right: 30px;
+        padding: 1rem;
+    }
+
+    .herolabel p {
+        font-weight: 900;
+        font-size: 1.75rem;
+    }
+
+    /* google-map */
+    .google-map {
+        grid-column: 1 / span 2;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-top: .5rem;
+    }
 }

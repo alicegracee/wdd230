@@ -187,3 +187,49 @@ main.dark section {
 main.dark a {
     color: #fff;
 }
+
+/* hero */
+.hero {
+    margin: 0 1rem 0 0;
+    padding: 0;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: radial-gradient(#fff, #bcc0cd);
+    border: 1px solid rgba(0, 0, 0, .45);
+    padding: 0.25rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: 0.25rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* google-map */
+iframe {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* visit count */
+.label {
+    font-weight: 700;
+}
+
+#visits {
+    font-weight: 900;
+    font-size: larger;
+}

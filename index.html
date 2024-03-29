@@ -35,7 +35,7 @@
 
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Victoria Volegova profile picture" width="75" height="100">
+        <img src="images/profile.webp" alt="Victoria Volegova profile picture" width="75" height="100">
         <span class="name">Victoria Volegova</span>
         <div id="mode">🌗</div>
     </header>
@@ -51,6 +51,17 @@
     </nav>
 
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-mobile-400-250.webp" media="(max-width: 400px)">
+                <source srcset="images/hero-monitor-960-600.webp" media="(max-width: 960px)">
+                <img src="images/hero-original-1280-800.webp" alt="Mesa Arizona Temple" width="1280" height="800">
+            </picture>
+            <div class="herolabel">
+                <p>Mesa Arizona Temple</p>
+            </div>
+        </div>
+
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
@@ -63,7 +74,10 @@
                         href="https://codepen.io/alicegracee/pen/JjVNryg" target="_blank">Responsive
                         Hamburger Menu</a> <a href="week02/bom.html" target="_blank">JS DOM Manipulation</a>
                 </li>
-                <li></li>
+                <li>Week 3: <a href="week03/images/landscape.webp" target="_blank">WebP</a> <a
+                        href="week03/lazyload.html" target="_blank">Lazy Loading</a> <a href="week02/bom.html"
+                        target="_blank">Responsive Images</a> <a href="week02/bom.html" target="_blank">Web Storage API
+                        - localStorage</a></li>
             </ul>
         </section>
         <section class="card">
@@ -76,11 +90,16 @@
             </div>
             <div>
                 <h3>Number of visits</h3>
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
+                <p><span class="label">Visit Count: </span><span class="visits"></span></p>
             </div>
         </section>
+
+        <div class="card google-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143878.1264713646!2d20.99276934545501!3d55.704707811452934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e4dbfae447448b%3A0x80acbc67146d87a1!2sKlaip%C4%97da%2C%20Klaipeda%20City%20Municipality%2C%20Lithuania!5e0!3m2!1sen!2slv!4v1711671882148!5m2!1sen!2slv"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
 
     <footer>
@@ -88,6 +107,7 @@
         <p> Last Modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/localStorage.js"></script>
 </body>
 
 </html>

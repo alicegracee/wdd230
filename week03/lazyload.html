@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstration of Lazy Loading</title>
+    <meta name="description"
+        content="Victoria Volegova - WDD 230 student's course assignment - Web Frontend Development, BYU-Idaho ">
+    <meta name="author" content="Victoria Volegova">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Photo Loading</h1>
+    </header>
+
+    <main>
+        <!-- #1 -->
+        <img src="https://picsum.photos/400/650" alt="Randon Photo Placeholder" loading="lazy" width="400" height="650">
+
+        <!-- #2 -->
+        <img src="https://picsum.photos/400/700" alt="Randon Photo Placeholder" loading="lazy" width="400" height="650">
+
+        <!-- #3 -->
+        <img src="https://picsum.photos/400/750" alt="Randon Photo Placeholder" loading="lazy" width="400" height="650">
+
+        <!-- #4 -->
+        <img src="https://picsum.photos/400/800" alt="Randon Photo Placeholder" loading="lazy" width="400" height="650">
+
+        <!-- #5 -->
+        <img src="https://picsum.photos/400/850" alt="Randon Photo Placeholder" loading="lazy" width="400" height="650">
+
+        <!-- #6 -->
+        <img src="https://picsum.photos/400/900" alt="Randon Photo Placeholder" loading="lazy" width="400" height="650">
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> | Victoria Volegova | Lithuania</p>
+        <p> Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+</body>
+
+</html>
