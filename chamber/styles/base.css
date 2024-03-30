@@ -186,12 +186,6 @@ nav div {
 }
 
 /* index page */
-/* main */
-main h2 {
-    border-bottom: 1px solid gray;
-    margin: 1rem 1.5rem;
-}
-
 main section {
     margin: 0.5rem;
     background-color: white;
@@ -199,7 +193,7 @@ main section {
     border-radius: 5px;
 }
 
-h3 {
+h2 {
     background-color: #bab7b7;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-top-right-radius: 5px;
@@ -218,7 +212,7 @@ div {
     margin: .5rem;
 }
 
-.spotlights div h3 {
+.spotlights div h2 {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 1rem;
@@ -247,12 +241,9 @@ div {
     border-radius: 5px;
 }
 
-.photos figcaption {
+.photos figcaption,
+.visits {
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
-}
-
-#visits-message {
-    padding: 0;
 }
