@@ -185,6 +185,7 @@ nav div {
     display: block;
 }
 
+/* index page */
 /* main */
 main h2 {
     border-bottom: 1px solid gray;
@@ -208,4 +209,50 @@ h3 {
 main section ul,
 div {
     padding: 1rem;
+}
+
+/* discover page */
+.spotlights div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.spotlights div h3 {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.photos {
+    display: grid;
+    grid-template-rows: 0.1fr 2fr 2fr;
+    align-items: center;
+}
+
+.photos div {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.photos figure {
+    grid-row: 2/4;
+    margin: 0;
+}
+
+.photos img {
+    width: 100%;
+    height: auto;
+    margin: 0 1rem 0.25rem 0;
+    border-radius: 5px;
+}
+
+.photos figcaption {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#visits-message {
+    padding: 0;
 }
