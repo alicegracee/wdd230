@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables for Data Presentation</title>
+
+    <!-- meta description & author -->
+    <meta name="description"
+        content="Victoria Volegova - WDD 230 - Web Frontend Development student's course assignment, BYU-Idaho">
+    <meta name="author" content="Victoria Volegova">
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/tablebuild.css">
+
+    <!-- Google fonts: Merriweather, Source Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>HTML Table for Data Presentation</h1>
+    <table>
+        <caption>Table 1: Account Feature Comparison</caption>
+        <thead>
+            <tr>
+                <th colspan="4" scope="colgroup">ACME Wildwest Services</th>
+            </tr>
+            <tr>
+                <th class="blackCell" scope="col"></th>
+                <th scope="col">Basic</th>
+                <th scope="col">Premium</th>
+                <th scope="col">Deluxe</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Feature 1</td>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Feature 2</td>
+                <td>❌</td>
+                <td>✔️</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <td>Feature 3</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

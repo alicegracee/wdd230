@@ -1,0 +1,40 @@
+table {
+    margin: 30px auto;
+    border: solid rgba(174, 165, 165, 0.5);
+    border-collapse: collapse;
+}
+
+.blackCell,
+tr:first-child th {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+th,
+td {
+    padding: 15px 25px;
+    border: 1px solid rgb(74, 74, 74);
+}
+
+th {
+    background-color: rgb(74, 74, 74);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+}
+
+td {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(241, 235, 235);
+}
+
+caption {
+    padding: 5px;
+    caption-side: bottom;
+    font-size: 1.25rem;
+}
