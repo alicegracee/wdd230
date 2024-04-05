@@ -87,7 +87,7 @@
     flex: 1 1 auto;
 }
 
-/* thank you page */
+/* record page */
 .record {
     grid-column: 1 / span 2;
 }
