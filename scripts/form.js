@@ -7,7 +7,7 @@ confirmPassword.addEventListener("focusout", checkSame);
 
 function checkSame() {
     if (password.value !== confirmPassword.value) {
-        message.textContent = "❗Passwords DO NOT MATCH!";
+        message.textContent = "❗Passwords DO NOT MATCH";
         message.style.visibility = "show";
         confirmPassword.style.backgroundColor = "#fff0f3";
         password.style.backgroundColor = "#fff0f3";
