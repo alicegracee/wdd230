@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Volegova - Page Rating Form - Web Frontend Development</title>
+
+    <!-- meta description & author -->
+    <meta name="description"
+        content="Page Rating Form - WDD 230 - Victoria Volegova - Web Frontend Development course assignment portal">
+    <meta name="author" content="Victoria Volegova">
+
+    <!-- social media meta tags -->
+    <meta property="og:title" content="Victoria Volegova Web Frontend Development course home page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.flickr.com/photos/112693323@N04/15223983163">
+    <meta property="og:url" content="https://alicegracee.github.io/wdd230/">
+    <meta property="og:description"
+        content="Victoria Volegova, Web Frontend Development, BYU-Idaho student's course assignment portal.">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- css & normalize-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <!-- Google fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/profile.webp" alt="Victoria Volegova profile picture" width="75" height="100">
+        <span class="name">Victoria Volegova</span>
+        <div id="mode">🌗</div>
+    </header>
+
+    <nav>
+        <div><button id="menu"></button></div>
+        <ul class="navigation">
+            <li class="active"><a href="#index.html">Home</a></li>
+            <li><a href="chamber/index.html" target="_blank">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html" target="_blank">Site Plan</a></li>
+            <li><a href="form.html" target="_blank">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card record">
+            <p>Thank you for rating my student page. If you see this message, the webform worked correctly. The form was
+                provided for demonstration only, no information was recorded or stored.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> | Victoria Volegova | Lithuania</p>
+        <p> Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/localStorage.js"></script>
+</body>
+
+</html>

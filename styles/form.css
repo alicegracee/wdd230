@@ -1,0 +1,100 @@
+:root {
+    --border: navy;
+    --border-2: rgb(153, 153, 153);
+    --legend: navy;
+    --label: black;
+    --background: blue;
+    --background2: #eee;
+}
+
+.form {
+    grid-column: 1 / span 2;
+}
+
+.rating-form {
+    margin: 1rem;
+}
+
+.rating-form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 0.5rem 2%;
+}
+
+.rating-form legend {
+    color: var(--legend);
+    padding: 0 .5rem;
+}
+
+.rating-form label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--label);
+    font-size: .9rem;
+}
+
+.rating-form div {
+    padding-top: 1rem;
+    color: var(--legend);
+    font-size: .9rem;
+}
+
+.rating-form input[type="text"],
+.rating-form input[type="password"],
+.rating-form input[type="email"] {
+    background-color: var(--background2);
+    display: block;
+    border: solid 1px var(--border-2);
+    border-radius: 6px;
+    padding: .75rem;
+    /* color: #555; */
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.rating-form input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#0dad8ae8, #0a6148);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+#rating {
+    width: 180px;
+    margin-bottom: 0;
+}
+
+#range-value {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--label);
+}
+
+#range-values {
+    display: flex;
+    margin: 0;
+    width: 200px;
+}
+
+#range-values option {
+    flex: 1 1 auto;
+}
+
+/* thank you page */
+.record {
+    grid-column: 1 / span 2;
+}
+
+.record p {
+    text-align: center;
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 1.50rem;
+}
