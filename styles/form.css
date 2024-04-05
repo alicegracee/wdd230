@@ -1,6 +1,6 @@
 :root {
     --border: navy;
-    --border-2: rgb(153, 153, 153);
+    --border-2: rgb(171, 168, 168);
     --legend: navy;
     --label: black;
     --background: blue;
@@ -64,6 +64,14 @@
     max-width: 400px;
     margin: -1rem 2% 2rem 2%;
     box-shadow: 1px 1px 4px #999;
+}
+
+.rating-form input:required {
+    border-right: solid 7px red;
+}
+
+.rating-form input:required:valid {
+    border-right: solid 7px green;
 }
 
 #rating {
