@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klaipeda Chamber of Commerce, The Chamber Join Page</title>
+
+    <!-- meta description & author -->
+    <meta name="description"
+        content="Klaipeda Chamber of Commerce, The Chamber Join Page. The purpose of this page is for a prospective member to apply to join the chamber of commerce through a membership application form.">
+    <meta name="author" content="Victoria Volegova">
+
+    <!-- social media meta tags -->
+    <meta property="og:title" content="Klaipeda Chamber of Commerce Membership Application Form">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://picryl.com/media/klaipeda-old-town-6d2785?zoom=true">
+    <meta property="og:url" content="https://alicegracee.github.io/wdd230/chamber/index.html">
+    <meta property="og:description"
+        content="Klaipeda Chamber of Commerce Join Page. The purpose of this page is for a prospective member to apply to join the chamber of commerce through a membership application form.">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Google fonts: Merriweather, Source Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Klaipeda Chamber of Commerce</h1>
+        <div class="hero">
+            <picture>
+                <img src="images/hero-800x400.webp" alt="View of Klaipeda Old Town" width="800" height="400">
+            </picture>
+
+            <article class="call-to-action">
+                <button onclick="window.location.href='#join.html';">Join</button>
+                <h4>Stronger together</h4>
+            </article>
+        </div>
+    </header>
+
+    <nav>
+        <div><button class="menu"></button></div>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card form">
+            <h2>Membership Application Form</h2>
+
+            <form method="get" action="thankyou.html" class="join-form">
+
+                <fieldset>
+                    <legend>Applicant's Information</legend>
+
+                    <label>First Name* <input type="text" name="first-name" id="first-name" required></label>
+
+                    <label>Last Name* <input type="text" name="last-name" id="last-name" required></label>
+
+                    <label>Title or Position <input type="text" name="title" id="title" pattern="[A-Za-z\-\s]{7,}"
+                            title="Pattern to only accept alpha characters, hyphens, and spaces with a minimum of seven characters."></label>
+
+                    <label>Email* <input type="email" name="email" id="email" required
+                            placeholder="contact@business.eu"></label>
+
+                    <label>Mobile Phone Number* <input type="tel" name="mobile" id="mobile" required></label>
+
+                    <label>Business/Organization's Name* <input type="text" name="business-name" id="business-name"
+                            required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select Membership Level</legend>
+
+                    <label><input type="radio" name="membership" value="gold"> Gold
+                        Membership</label>
+
+                    <label><input type="radio" name="membership" value="silver"> Silver
+                        Membership</label>
+
+                    <label><input type="radio" name="membership" value="bronze"> Bronze
+                        Membership</label>
+
+                    <label><input type="radio" name="membership" value="non-profit"> Non-profit
+                        Membership</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business/Organization's Description</legend>
+
+                    <label for="description"><textarea name="description" id="description" cols="30" rows="10"
+                            placeholder="Short description of your Organization ..."></textarea></label>
+
+                    <label><input type="hidden" name="timestamp" id="timestamp"><span
+                            id="form-timestamp"></span></label>
+                </fieldset>
+
+                <input type="submit" value="Join Klaipeda Chamber of Commerce">
+            </form>
+
+        </section>
+        <section class="card spotlights">
+            <h2>Levels</h2>
+            <div>
+                <h4><u>Gold</u></h4>
+                <ul>
+                    <li>Advertising</li>
+                    <li>Business Lounge</li>
+                    <li>€500</li>
+                </ul>
+            </div>
+            <div>
+                <h4><u>Silver</u></h4>
+                <ul>
+                    <li>Special Events</li>
+                    <li>Priority Booking</li>
+                    <li>€400</li>
+                </ul>
+            </div>
+            <div>
+                <h4><u>Bronze</u></h4>
+                <ul>
+                    <li>Training</li>
+                    <li>Event Discounts</li>
+                    <li>€300</li>
+                </ul>
+            </div>
+            <div>
+                <h4><u>Non-profit Organization</u></h4>
+                <ul>
+                    <li>Advertising</li>
+                    <li>Event Discounts</li>
+                    <li>Free of charge</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Klaipeda Chamber of Commerce</strong></p>
+        <br>
+        <p>10 High sreet, Klaipeda</p>
+        <p>LT-9010, Lithuania</p>
+        <p>+370 123456789</p>
+        <p><i>contactus@kcoc.lt</i></p>
+        <br>
+        <p>© <span class="year"></span> | Victoria Volegova | WDD230 course project page</p>
+        <p> Last Modified: <span class="lastModified"></span></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

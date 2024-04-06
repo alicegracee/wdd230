@@ -65,7 +65,7 @@
 
     /* responsive navigation */
     /* hide hamburger button */
-    #menu {
+    .menu {
         display: none;
     }
 

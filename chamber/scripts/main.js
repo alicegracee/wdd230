@@ -1,12 +1,12 @@
 // footer 
 // current year
-document.querySelector('#year').textContent = new Date().getFullYear();
+document.querySelector('.year').textContent = new Date().getFullYear();
 
 // last Modified
-document.querySelector('#lastModified').textContent = new Date(document.lastModified).toUTCString();
+document.querySelector('.lastModified').textContent = new Date(document.lastModified).toUTCString();
 
 // responsive navigation 
-const hamButton = document.querySelector('#menu');
+const hamButton = document.querySelector('.menu');
 const navigation = document.querySelector('.navigation');
 
 hamButton.addEventListener('click', () => {

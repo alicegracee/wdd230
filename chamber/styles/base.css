@@ -133,7 +133,7 @@ nav div {
     padding: 0;
 }
 
-#menu {
+.menu {
     font-size: 1.5rem;
     border: 1px solid rgba(0, 0, 0, .3);
     padding: 3px 7px 6px;
@@ -142,11 +142,11 @@ nav div {
     cursor: pointer;
 }
 
-#menu::before {
+.menu::before {
     content: "☰";
 }
 
-#menu.open::before {
+.menu.open::before {
     content: "X";
 }
 
@@ -246,4 +246,94 @@ div {
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
+}
+
+/* join form page */
+:root {
+    --border: navy;
+    --border-2: rgb(171, 168, 168);
+    --legend: navy;
+    --label: black;
+    --background: blue;
+    --background2: white;
+}
+
+.join-form {
+    margin: 1rem;
+}
+
+.join-form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 0.5rem 2%;
+}
+
+.join-form legend {
+    color: var(--legend);
+    padding: 0 .5rem;
+}
+
+.join-form label {
+    display: block;
+    padding-top: 1rem;
+    color: var(--label);
+    font-size: .9rem;
+}
+
+.join-form input[type="text"],
+.join-form input[type="email"],
+.join-form input[type="tel"] {
+    background-color: var(--background2);
+    display: block;
+    border: solid 1px var(--border-2);
+    border-radius: 6px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.join-form input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#0dad8ae8, #0a6148);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 500px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.join-form input:required {
+    border-right: solid 7px red;
+}
+
+.join-form input:required:valid {
+    border-right: solid 7px green;
+}
+
+.join-form input[type="radio"] {
+    margin-right: 6px;
+}
+
+.join-form textarea {
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 500px;
+    margin: -1rem 2%;
+}
+
+/* thankyou page */
+.record {
+    grid-column: 1 / span 2;
+}
+
+.record p {
+    text-align: center;
+    margin: 1rem;
+    font-weight: 500;
+    font-size: 1.25rem;
 }
