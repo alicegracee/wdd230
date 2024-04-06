@@ -326,6 +326,10 @@ div {
     margin: -1rem 2%;
 }
 
+#form-timestamp {
+    display: none;
+}
+
 /* thankyou page */
 .record {
     grid-column: 1 / span 2;
