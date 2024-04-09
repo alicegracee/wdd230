@@ -1,0 +1,23 @@
+{
+    "familyName": "Smith",
+    "movedIntoWard": "04-12-2023",
+    "numberOfPeople": "3",
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "John",
+            "gender": "male",
+            "birthdate": "01-12-1980"
+        },
+        {
+            "name": "Melissa",
+            "gender": "female",
+            "birthdate": "09-11-1980"
+        },
+        {
+            "name": "Daniel",
+            "gender": "male",
+            "birthdate": "15-01-2010"
+        }
+    ]
+}
