@@ -233,3 +233,23 @@ iframe {
     font-weight: 900;
     font-size: larger;
 }
+
+/* information section */
+.info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info img {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info p,
+figcaption {
+    margin: 1rem;
+}
