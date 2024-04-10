@@ -20,7 +20,7 @@ const displayMembers = (members) => {
         let companyTelephone = document.createElement('p');
         let companyWebsite = document.createElement('p');
 
-        companyLogo.setAttribute('src', member.img);
+        companyLogo.setAttribute('src', member.logo);
         companyLogo.setAttribute('alt', member.alt);
         companyLogo.setAttribute('loading', 'lazy');
         companyLogo.setAttribute('width', '250');
@@ -31,7 +31,7 @@ const displayMembers = (members) => {
         membershipLevel.textContent = `Membership level: ${member.membership}`;
         companyAddress.textContent = member.address;
         companyTelephone.textContent = member.phone;
-        companyWebsite.textContent = member.url;
+        companyWebsite.textContent = member.website;
 
         card.appendChild(companyName);
         card.appendChild(companyLogo);
