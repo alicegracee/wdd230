@@ -57,53 +57,23 @@
     <nav>
         <div><button class="menu"></button></div>
         <ul class="navigation">
-            <li class="active"><a href="#index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="#directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
 
     <main>
-        <section class="card events">
-            <h2>Current Events</h2>
-            <div>
-                <h4>March 29, 2024</h4>
-                <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-            </div>
-            <div>
-                <h4>April 18, 2024</h4>
-                <br>
-                <p>Vitae semper quis lectus nulla. Vulputate eu scelerisque felis imperdiet proin fermentum leo. </p>
-            </div>
-            <div>
-                <h4>May 12, 2024</h4>
-                <br>
-                <p>Urna neque viverra justo nec ultrices dui sapien. Rhoncus est pellentesque elit ullamcorper.</p>
-            </div>
-        </section>
-
-        <section class="card weather">
-            <h2>Local Weather</h2>
-            <div>
-                <h4>Weather</h4>
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-            </div>
-        </section>
-
-        <section class="card spotlights">
-            <h2>Spotlights</h2>
-            <div>
-                <h4>Advertisements</h4>
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
-            </div>
-        </section>
+        <div class="grid-list-buttons">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <div class="selector grid">
+            <section id="cards">
+                <h2>Klaipeda Chamber of Commerce's Members</h2>
+            </section>
+        </div>
     </main>
 
     <footer>
@@ -118,6 +88,7 @@
         <p> Last Modified: <span class="lastModified"></span></p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 
 </html>

@@ -341,3 +341,87 @@ div {
     font-weight: 500;
     font-size: 1.25rem;
 }
+
+/* directory page */
+
+.grid-list-buttons {
+    grid-column: 1 / 4;
+    margin: 1rem auto 0 auto;
+    padding: 0.5rem;
+    text-align: right;
+}
+
+.grid-list-buttons button {
+    padding: 1rem;
+    font-weight: 500;
+}
+
+#cards section {
+    margin: .5rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid #cards section img {
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 30px #777;
+    margin: 1rem;
+}
+
+#cards section h3 {
+    color: navy;
+    font-size: 1.2rem;
+    background-color: #eee;
+    border: none;
+}
+
+.grid #cards section p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.grid {
+    grid-column: 1 / 4;
+}
+
+.grid #cards section>* {
+    margin: 0.1rem;
+}
+
+.list {
+    grid-column: 1 / 4;
+}
+
+.list #cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.list #cards section>* {
+    margin: 0 1rem;
+}
+
+.list #cards section img {
+    display: none;
+}
+
+.list #cards section h3 {
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.list #cards section p {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+.list #cards section:nth-child(odd) {
+    background-color: white;
+}

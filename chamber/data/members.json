@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "The Sea Port",
+            "address": "Port Avenue 1, Klaipeda, LT90147, Lithuania",
+            "phone": "+370 345-23-567",
+            "website": "http://www.theseaport.lt",
+            "logo": "images/the-sea-port.webp",
+            "alt": "The Sea Port Logo",
+            "membership": "Gold"
+        },
+        {
+            "name": "The Dry Dock",
+            "address": "Shipbuilders Street 3, Klaipeda, LT90147, Lithuania",
+            "phone": "+370 567-89-007",
+            "website": "https://www.thedrydock.lt",
+            "logo": "images/the-dry-dock.webp",
+            "alt": "The Dry Dock Logo",
+            "membership": "Silver"
+        },
+        {
+            "name": "The Sea Ferry",
+            "address": "Ferry Terminal 1A, Klaipeda, LT90147, Lithuania",
+            "phone": "+370 789-67-890",
+            "website": "https://www.theseaferry.lt",
+            "logo": "images/the-sea-ferry.webp",
+            "alt": "The Sea Ferry Logo",
+            "membership": "Gold"
+        },
+        {
+            "name": "The Cargo Terminal",
+            "address": "Cargo Terminal 1, Klaipeda, LT90147, Lithuania",
+            "phone": "+370 456-09-678",
+            "website": "https://www.thecargoterminal.lt",
+            "logo": "images/the-cargo-terminal.webp",
+            "alt": "The Cargo Terminal Logo",
+            "membership": "Bronze"
+        },
+        {
+            "name": "The Local Charity",
+            "address": "Main Street 12, Klaipeda, LT90147, Lithuania",
+            "phone": "+370 890-09-567",
+            "website": "https://www.thelocalcharity.org",
+            "logo": "images/the-local-charity.webp",
+            "alt": "The Local Charity Logo",
+            "membership": "Non Profit"
+        },
+        {
+            "name": "The Freight Forwarders",
+            "address": "Cargo Street, Klaipeda, LT90147, Lithuania",
+            "phone": "+370 234-07-456",
+            "website": "https://www.thefreightforwarders.lt",
+            "logo": "images/the-freight-forwarders.webp",
+            "alt": "The Freight Forwarders Logo",
+            "membership": "Bronze"
+        },
+        {
+            "name": "The Conference Centre",
+            "address": "Business Square 1, Klaipeda, LT90147, Lithuania",
+            "phone": "+370 890-06-001",
+            "website": "https://www.theconferencecentre.lt",
+            "logo": "images/the-conference-centre.webp",
+            "alt": "The Conference Centre Logo",
+            "membership": "Silver"
+        }
+    ]
+}
