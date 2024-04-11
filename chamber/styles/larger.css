@@ -95,6 +95,11 @@
         height: 420px;
     }
 
+    .grid #cards h2 {
+        border: none;
+        background-color: white;
+    }
+
     .grid #cards section h3 {
         font-size: 1.2rem;
     }
