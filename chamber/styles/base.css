@@ -67,10 +67,6 @@ img {
     grid-row: 3 / 4;
 }
 
-.hero article {
-    position: absolute;
-}
-
 .hero img {
     display: block;
     width: 100%;
@@ -78,6 +74,7 @@ img {
 }
 
 .hero article {
+    position: absolute;
     top: 33%;
     right: 0;
     left: 0;
@@ -97,7 +94,7 @@ img {
     width: 25%;
     height: auto;
     padding: 3%;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 /* Flex Navigation Menu */
@@ -439,13 +436,13 @@ div {
     box-shadow: none;
     margin: 0;
     padding: 0;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .weather p,
-figcaption {
-    margin: 1rem;
-}
-
+figcaption,
 #forecast p {
     font-weight: 500;
     font-size: 1rem;
