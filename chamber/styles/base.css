@@ -425,3 +425,27 @@ div {
 .list #cards section:nth-child(odd) {
     background-color: white;
 }
+
+/* weather section */
+.weather div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather img {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+.weather p,
+figcaption {
+    margin: 1rem;
+}
+
+#forecast p {
+    margin: .5rem;
+}

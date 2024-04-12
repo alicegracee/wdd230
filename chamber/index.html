@@ -88,10 +88,20 @@
         <section class="card weather">
             <h2>Local Weather</h2>
             <div>
-                <h4>Weather</h4>
-                <p>placeholder</p>
-                <p>placeholder</p>
-                <p>placeholder</p>
+                <h3>Currently in Klaipeda, Lithuania</h3>
+                <p>Temperature is <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="https://openweathermap.org/img/wn/10d@2x.png"
+                        alt="weather conditions icon">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div id="forecast">
+                <h3>3 Days Forecast</h3>
+                <br>
+                <p><span id="forecast-1"></span></p>
+                <p><span id="forecast-2"></span></p>
+                <p><span id="forecast-3"></span></p>
             </div>
         </section>
 
@@ -118,6 +128,7 @@
         <p> Last Modified: <span class="lastModified"></span></p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>
