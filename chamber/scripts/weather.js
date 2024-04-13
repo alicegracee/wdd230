@@ -6,19 +6,9 @@ const captionDesc = document.querySelector('figcaption');
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=55.72&lon=21.11&units=metric&appid=8d4aedfc1e40229d9c70ca208f671c5f'
 
 async function apiFetch() {
-    try {
-        const response = await fetch(url);
-        if (response.ok) {
-            const data = await response.json();
-            displayResults(data);
-        }
-        else {
-            throw Error(await response.text())
-        }
-    }
-    catch (error) {
-        console.log(error);
-    }
+    const response = await fetch(url);
+    const data = await response.json();
+    displayResults(data);
 }
 
 function displayResults(data) {
